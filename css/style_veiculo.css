@@ -1,0 +1,45 @@
+#geral {
+    font-family: Arial;
+    background: #966464;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* FORMULÁRIO */
+  form {
+    background: rgb(197, 158, 158);
+    padding: 15px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* INPUTS */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  /* BOTÃO */
+  button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(173, 139, 159);
+    color: white;
+  }
+  
+  /* LISTA */
+  #lista-dos-veiculos {
+    margin-top: 20px;
+  }
+  
+  /* ITEM DA LISTA */
+  #lista-dos-veiculos div {
+    background: rgb(219, 183, 183);
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+  }

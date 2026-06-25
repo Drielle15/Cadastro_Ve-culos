@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Veículos</title>
+<link rel="stylesheet" href="css/style_veiculo.css">
+
+</head>
+<body>
+
+  <h1>Cadastro de Veículos</h1>
+<div id="geral">
+  <form id="form-veiculo">
+
+    <input type="text" id="modelo" placeholder="Modelo" required>
+    <input type="text" id="marca" placeholder="Marca" required>
+    <input type="text" id="placa" placeholder="Placa" required>
+    <input type="number" id="ano" placeholder="Ano" required>
+    <input type="number" id="valor" placeholder="Valor" required>
+
+    <p>Combustível:</p>
+
+    <label><input type="radio" name="comb" value="gasolina" required> Gasolina</label>
+    <label><input type="radio" name="comb" value="etanol"> Etanol</label>
+    <label><input type="radio" name="comb" value="flex"> Bicombustível</label>
+    <label><input type="radio" name="comb" value="hibrido"> Híbrido</label>
+    <label><input type="radio" name="comb" value="eletrico"> Elétrico</label>
+
+    <button type="submit">Adicionar</button>
+
+  </form>
+
+  <h2>Lista</h2>
+  <div id="lista-dos-veiculos"></div>
+
+  <script src="js/script_calculo.js"></script>
+  <script src="js/script_veiculo.js"></script>
+
+</div>
+</body>
+</html>
